@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadContent</key>
+			<dict>
+				<key>com.google.Chrome</key>
+				<dict>
+					<key>Forced</key>
+					<array>
+						<dict>
+							<key>mcx_preference_settings</key>
+							<dict>
+								<key>AutoFillEnabled</key>
+								<false/>
+								<key>DefaultBrowserSettingEnabled</key>
+								<false/>
+								<key>DefaultNotificationsSetting</key>
+								<integer>2</integer>
+								<key>ExtensionInstallBlacklist</key>
+								<array>
+									<string>*</string>
+								</array>
+								<key>HideWebStorePromo</key>
+								<true/>
+								<key>HomepageIsNewTabPage</key>
+								<false/>
+								<key>HomepageLocation</key>
+								<string>https://contoso.com</string>
+								<key>ImportAutofillFormData</key>
+								<false/>
+								<key>ImportBookmarks</key>
+								<false/>
+								<key>ImportHistory</key>
+								<false/>
+								<key>ImportHomepage</key>
+								<false/>
+								<key>ImportSavedPasswords</key>
+								<false/>
+								<key>ImportSearchEngine</key>
+								<false/>
+								<key>MetricsReportingEnabled</key>
+								<false/>
+								<key>PasswordManagerEnabled</key>
+								<false/>
+								<key>RestoreOnStartup</key>
+								<integer>4</integer>
+								<key>RestoreOnStartupURLs</key>
+								<array>
+									<string>https://contoso.com/</string>
+								</array>
+								<key>RestrictSigninToPattern</key>
+								<string>*@contoso.com</string>
+								<key>SyncDisabled</key>
+								<false/>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<key>PayloadDisplayName</key>
+			<string>Chrome Defaults</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.ManagedClient.preferences.3377ead0-2310-0131-32ec-000c2944c108</string>
+			<key>PayloadType</key>
+			<string>com.apple.ManagedClient.preferences</string>
+			<key>PayloadUUID</key>
+			<string>3377ead0-2310-0131-32ec-000c2944c108</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>App Defaults - Chrome</string>
+	<key>PayloadIdentifier</key>
+	<string>org.profile.chrome</string>
+	<key>PayloadOrganization</key>
+	<string>Contoso Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>A7EB734B-1A9C-4083-8B84-80B1704E1223</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
