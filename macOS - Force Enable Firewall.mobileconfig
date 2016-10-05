@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Applications</key>
+			<array/>
+			<key>BlockAllIncoming</key>
+			<true/>
+			<key>EnableFirewall</key>
+			<true/>
+			<key>EnableStealthMode</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Firewall</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.firewall.D1A0E87F-EA66-4447-9729-0FF0B1C95ED4</string>
+			<key>PayloadOrganization</key>
+			<string>Contoso Inc</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.firewall</string>
+			<key>PayloadUUID</key>
+			<string>D1A0E87F-EA66-4447-9729-0FF0B1C95ED4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Ensures macOS firewall is enabled.</string>
+	<key>PayloadDisplayName</key>
+	<string>macOS - Force Enable Firewall</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>2366B2CF-7972-4C22-9C99-0166D83A590A</string>
+	<key>PayloadOrganization</key>
+	<string>Contoso Inc</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>2A7FB387-0078-4E29-809C-7E6398157607</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
