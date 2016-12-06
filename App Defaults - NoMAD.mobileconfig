@@ -16,30 +16,18 @@
 							<dict>
 								<key>ADDomain</key>
 								<string>contoso.com</string>
-								<key>ExpeditedLookup</key>
-								<string>false</string>
 								<key>KerberosRealm</key>
 								<string>CONTOSO.COM</string>
 								<key>RenewTickets</key>
 								<integer>1</integer>
 								<key>SecondsToRenew</key>
-								<integer>0</integer>
+								<integer>3600</integer>
 								<key>ShowHome</key>
 								<integer>0</integer>
 								<key>Template</key>
 								<string></string>
 								<key>UseKeychain</key>
-								<integer>0</integer>
-								<key>UserAging</key>
-								<true/>
-								<key>Verbose</key>
-								<string>3</string>
-								<key>userCommandHotKey1</key>
-								<string></string>
-								<key>userCommandName1</key>
-								<string></string>
-								<key>userCommandTask1</key>
-								<string></string>
+								<integer>1</integer>
 								<key>x509CA</key>
 								<string></string>
 							</dict>
