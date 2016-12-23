@@ -28,7 +28,7 @@
 								<string></string>
 								<key>UseKeychain</key>
 								<integer>1</integer>
-								<key>x509CA</key>
+								<key>X509CA</key>
 								<string></string>
 							</dict>
 						</dict>
