@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowDockFixupOverride</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Dock</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dock.189E8430-8E12-468F-A5BA-F284DA0D2B9A</string>
+			<key>PayloadType</key>
+			<string>com.apple.dock</string>
+			<key>PayloadUUID</key>
+			<string>189E8430-8E12-468F-A5BA-F284DA0D2B9A</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>This key allows you to customize what actions Apple’s dockfixup takes.</string>
+	<key>PayloadDisplayName</key>
+	<string>Dockfixup Override</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>84308E7C-4C1D-4A99-A2E6-25DA6CF313CF</string>
+	<key>PayloadOrganization</key>
+	<string>Contoso Inc</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9C314FAA-B215-4FB6-BE70-2C69C0315603</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
