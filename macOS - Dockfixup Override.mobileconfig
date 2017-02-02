@@ -24,7 +24,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>This profiles allows you to customize what actions Apple’s dockfixup takes using a custom dockfixup plist in /Library/Preferences/com.apple.dockfixup.plist. You can use /CoreServices/Dock.app/Contents/Resources/com.apple.dockfixup.plis as an example/base, or you can can choose to not provide override defaults and dockfixup will take no action.</string>
+	<string>This profiles allows you to customize what actions Apple’s dockfixup takes using a custom dockfixup plist in /Library/Preferences/com.apple.dockfixup.plist. You can use /CoreServices/Dock.app/Contents/Resources/com.apple.dockfixup.plist as an example/base, or you can can choose to not provide override defaults and dockfixup will take no action.</string>
 	<key>PayloadDisplayName</key>
 	<string>Dockfixup Override</string>
 	<key>PayloadEnabled</key>
