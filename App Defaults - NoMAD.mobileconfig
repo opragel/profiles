@@ -18,6 +18,8 @@
 								<string>contoso.com</string>
 								<key>KerberosRealm</key>
 								<string>CONTOSO.COM</string>
+								<key>LocalPasswordSync</key>
+								<integer>0</integer>
 								<key>RenewTickets</key>
 								<integer>1</integer>
 								<key>SecondsToRenew</key>
@@ -48,7 +50,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Includes defaults for Trusource Labs NoMAD</string>
+	<string>Default preferences for NoMAD app</string>
 	<key>PayloadDisplayName</key>
 	<string>App Defaults - NoMAD</string>
 	<key>PayloadIdentifier</key>
