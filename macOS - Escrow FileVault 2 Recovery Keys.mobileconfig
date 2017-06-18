@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>EncryptCertPayloadUUID</key>
+			<string>AB1DF8E4-05FA-4614-92D5-85F3DFA0B42F</string>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>FileVault Recovery Key Escrow</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.FDERecoveryKeyEscrow.861711BA-DA66-4A29-B97D-C5A9213CEB6C</string>
+			<key>PayloadOrganization</key>
+			<string>Contoso Inc</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.FDERecoveryKeyEscrow</string>
+			<key>PayloadUUID</key>
+			<string>3FABE57F-3B52-4225-9F40-31FE8C1B2AD4</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>Location</key>
+			<string>Contoso Inc IT Systems</string>
+		</dict>
+		<dict>
+			<key>PayloadCertificateFileName</key>
+			<string>FileVault2Comm.cer</string>
+			<key>PayloadContent</key>
+			<data>
+            yourcertcontentgoeshereitwillbeamuchlongerstring
+			</data>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Recovery Key Escrow Certificate</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.security.pkcs1.AB1DF8E4-05FA-4614-92D5-85F3DFA0B42F</string>
+			<key>PayloadOrganization</key>
+			<string>Contoso Inc</string>
+			<key>PayloadType</key>
+			<string>com.apple.security.pkcs1</string>
+			<key>PayloadUUID</key>
+			<string>AB1DF8E4-05FA-4614-92D5-85F3DFA0B42F</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Escrows recovery keys into company management system.</string>
+	<key>PayloadDisplayName</key>
+	<string>Escrow Recovery Keys</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>CBA0185B-66F5-4638-AC29-57A4C792AC46</string>
+	<key>PayloadOrganization</key>
+	<string>Contoso Inc</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>0B1D0A58-B539-472E-9191-8FE7AFA39E95</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
