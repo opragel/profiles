@@ -5,54 +5,42 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>PayloadContent</key>
-			<dict>
-				<key>com.google.Chrome</key>
-				<dict>
-					<key>Forced</key>
-					<array>
-						<dict>
-							<key>mcx_preference_settings</key>
-							<dict>
-								<key>DefaultBrowserSettingEnabled</key>
-								<false/>
-								<key>DefaultNotificationsSetting</key>
-								<integer>2</integer>
-								<key>HideWebStorePromo</key>
-								<true/>
-								<key>ImportAutofillFormData</key>
-								<false/>
-								<key>ImportBookmarks</key>
-								<false/>
-								<key>ImportHistory</key>
-								<false/>
-								<key>ImportHomepage</key>
-								<false/>
-								<key>ImportSavedPasswords</key>
-								<false/>
-								<key>ImportSearchEngine</key>
-								<false/>
-								<key>MetricsReportingEnabled</key>
-								<false/>
-								<key>ExtensionInstallBlacklist</key>
-								<array>
-									<string>jlhmfgmfgeifomenelglieieghnjghma</string>
-								</array>
-							</dict>
-						</dict>
-					</array>
-				</dict>
-			</dict>
+			<key>DefaultBrowserSettingEnabled</key>
+			<false/>
+			<key>ExtensionInstallBlacklist</key>
+			<array>
+				<string>jlhmfgmfgeifomenelglieieghnjghma</string>
+			</array>
+			<key>HideWebStorePromo</key>
+			<true/>
+			<key>ImportAutofillFormData</key>
+			<false/>
+			<key>ImportBookmarks</key>
+			<false/>
+			<key>ImportHistory</key>
+			<false/>
+			<key>ImportHomepage</key>
+			<false/>
+			<key>ImportSavedPasswords</key>
+			<false/>
+			<key>ImportSearchEngine</key>
+			<false/>
+			<key>MetricsReportingEnabled</key>
+			<false/>
+			<key>PayloadDescription</key>
+			<string>Google Chrome Settings</string>
 			<key>PayloadDisplayName</key>
-			<string>Chrome Defaults</string>
+			<string>Google Chrome App Defaults</string>
 			<key>PayloadEnabled</key>
 			<true/>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.ManagedClient.preferences.C986FB16-8889-4A7D-93F8-2BA56FE4B68C</string>
+			<string>com.google.Chrome.1FCB424D-008B-4FE6-9AD8-B69EE56E7F94</string>
+			<key>PayloadOrganization</key>
+			<string>Contoso Inc</string>
 			<key>PayloadType</key>
-			<string>com.apple.ManagedClient.preferences</string>
+			<string>com.google.Chrome</string>
 			<key>PayloadUUID</key>
-			<string>C986FB16-8889-4A7D-93F8-2BA56FE4B68C</string>
+			<string>1FCB424D-008B-4FE6-9AD8-B69EE56E7F94</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -60,7 +48,7 @@
 	<key>PayloadDisplayName</key>
 	<string>App Defaults - Chrome</string>
 	<key>PayloadIdentifier</key>
-	<string>org.profile.chrome</string>
+	<string>org.contoso.chrome.8123E326-94EA-4AAC-A485-876ED24A6808</string>
 	<key>PayloadOrganization</key>
 	<string>Contoso Inc</string>
 	<key>PayloadRemovalDisallowed</key>
@@ -70,7 +58,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>855313DA-FA4A-4158-88BD-5EE9653262D8</string>
+	<string>8123E326-94EA-4AAC-A485-876ED24A6808</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
