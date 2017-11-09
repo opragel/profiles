@@ -23,6 +23,10 @@
 			<integer>1</integer>
 			<key>AllowUserOverrides</key>
 			<integer>0</integer>
+			<key>AllowedTeamIdentifiers</key>
+			<array>
+				<string>EQHXZ8M8AV</string>
+			</array>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
