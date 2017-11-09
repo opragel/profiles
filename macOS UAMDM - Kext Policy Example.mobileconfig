@@ -27,6 +27,13 @@
 			<array>
 				<string>EQHXZ8M8AV</string>
 			</array>
+			<key>AllowedKernelExtensions</key>
+			<dict>
+				<key>EQHXZ8M8AV</key>
+				<array>
+					<string>com.google.santa.BundleExample</string>
+				</array>
+			</dict>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
