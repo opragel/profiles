@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AllowUserOverrides</key>
+			<integer>1</integer>
+			<key>AllowedKernelExtensions</key>
+			<dict>
+				<key>EQHXZ8M8AV</key>
+				<array>
+					<string>com.google.santa-driver</string>
+				</array>
+			</dict>
+			<key>AllowedTeamIdentifiers</key>
+			<array>
+				<string>EQHXZ8M8AV</string>
+			</array>
+			<key>PayloadDescription</key>
+			<string></string>
+			<key>PayloadDisplayName</key>
+			<string>Kext Policy settings</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.syspolicy.kernel-extension-policy.556E9D58-6E09-4E48-A152-557BFD324A64</string>
+			<key>PayloadOrganization</key>
+			<string>Contoso Inc.</string>
+			<key>PayloadType</key>
+			<string>com.apple.syspolicy.kernel-extension-policy</string>
+			<key>PayloadUUID</key>
+			<string>556E9D58-6E09-4E48-A152-557BFD324A64</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string></string>
+	<key>PayloadDisplayName</key>
+	<string>Kernel Extension Policy</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>9079462B-CCC2-40D0-887F-C997CC97C381</string>
+	<key>PayloadOrganization</key>
+	<string>Contoso Inc.</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>E14EE6DB-8B39-4733-B58D-2E4C735E2FB0</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
