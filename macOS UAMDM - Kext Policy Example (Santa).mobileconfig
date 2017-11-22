@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>AllowUserOverrides</key>
-			<integer>1</integer>
+			<true/>
 			<key>AllowedKernelExtensions</key>
 			<dict>
 				<key>EQHXZ8M8AV</key>
