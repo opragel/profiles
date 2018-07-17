@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>AutomaticCheckEnabled</key>
+			<true/>
+			<key>AutomaticDownload</key>
+			<true/>
+			<key>AutomaticallyInstallMacOSUpdates</key>
+			<true/>
+			<key>ConfigDataInstall</key>
+			<true/>
+			<key>CriticalUpdateInstall</key>
+			<true/>
+			<key>EvaluateCriticalEvenIfUnchanged</key>
+			<true/>
+			<key>OneTimeForceScanEnabled</key>
+			<true/>
+			<key>PayloadDescription</key>
+			<string>macOS Automatic Software Update Settings</string>
+			<key>PayloadDisplayName</key>
+			<string>macOS Software Update Settings</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.SoftwareUpdate.BD836593-7D61-4796-A26B-F9564AB2F54D</string>
+			<key>PayloadOrganization</key>
+			<string>Contoso Inc</string>
+			<key>PayloadType</key>
+			<string>com.apple.SoftwareUpdate</string>
+			<key>PayloadUUID</key>
+			<string>858CD772-0846-4821-BCED-D5229F24FC37</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>macOS Software Update Settings</string>
+	<key>PayloadIdentifier</key>
+	<string>com.apple.SoftwareUpdate.ED6C4ED3-96C8-42F3-8809-CE277FE53882</string>
+	<key>PayloadOrganization</key>
+	<string>Contoso Inc</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>76143A42-CC3B-46D2-9CCA-15381D36FC41</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
