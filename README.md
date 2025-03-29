@@ -2,7 +2,7 @@
 
 This repository contains a few [Apple configuration profile](https://support.apple.com/guide/deployment/plan-your-configuration-profiles-dep9a318a393/web) examples, which can be used to manage various settings on a device. 
 
-The examples may be outdated and are never intended to deployed without modification and vetting is on the administrator deploying. As always, test.
+The examples may be outdated and are never intended to deployed without modification, and vetting is on the administrator deploying. As always, test.
 
 Though sparse, I like to think these examples are a good general starting point for most typical profiles after seeing many repeat questions from IT professionals.
 
