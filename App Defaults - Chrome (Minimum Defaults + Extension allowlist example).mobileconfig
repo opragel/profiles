@@ -2,62 +2,92 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>PayloadContent</key>
-	<array>
-		<dict>
-			<key>ExtensionInstallAllowlist</key>
-			<array>
-				<string>cjpalhdlnbpafiamejdnhcphjbkeiagm,ddkjiahejlhfcafbddmgiahcphecmpfh </string>
-			</array>
-			<key>ExtensionInstallBlocklist</key>
-			<array>
-				<string>*</string>
-			</array>
-			<key>ImportAutofillFormData</key>
-			<false/>
-			<key>ImportBookmarks</key>
-			<false/>
-			<key>ImportHistory</key>
-			<false/>
-			<key>ImportHomepage</key>
-			<false/>
-			<key>ImportSavedPasswords</key>
-			<false/>
-			<key>ImportSearchEngine</key>
-			<false/>
-			<key>PayloadDescription</key>
-			<string>Google Chrome Settings</string>
-			<key>PayloadDisplayName</key>
-			<string>Google Chrome App Defaults</string>
-			<key>PayloadEnabled</key>
-			<true/>
-			<key>PayloadIdentifier</key>
-			<string>com.google.Chrome.1FCB424D-008B-4FE6-9AD8-B69EE56E7F94</string>
-			<key>PayloadOrganization</key>
-			<string>Contoso Inc</string>
-			<key>PayloadType</key>
-			<string>com.google.Chrome</string>
-			<key>PayloadUUID</key>
-			<string>1FCB424D-008B-4FE6-9AD8-B69EE56E7F94</string>
-			<key>PayloadVersion</key>
-			<integer>1</integer>
-		</dict>
-	</array>
-	<key>PayloadDisplayName</key>
-	<string>App Defaults - Chrome</string>
-	<key>PayloadIdentifier</key>
-	<string>org.contoso.chrome.8123E326-94EA-4AAC-A485-876ED24A6808</string>
-	<key>PayloadOrganization</key>
-	<string>Contoso Inc</string>
-	<key>PayloadRemovalDisallowed</key>
-	<true/>
-	<key>PayloadScope</key>
-	<string>System</string>
-	<key>PayloadType</key>
-	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>8123E326-94EA-4AAC-A485-876ED24A6808</string>
-	<key>PayloadVersion</key>
-	<integer>1</integer>
+    <key>PayloadContent</key>
+    <array>
+    <dict>
+            <!-- Chrome-specific profile bits. -->
+            <key>AllowWebAuthnWithBrokenTlsCerts</key>
+            <false/>
+            <key>BlockExternalExtensions</key>
+            <true/>
+            <key>BoundSessionCredentialsEnabled</key>
+            <true/>
+            <!-- Look up Chrome policy precedence and carefully understand what this does. -->
+            <key>CloudPolicyOverridesPlatformPolicy</key>
+            <true/>
+            <key>ExtensionManifestV2Availability</key>
+            <true/>
+            <key>ExtensionInstallAllowlist</key>
+            <array>
+                <string>cjpalhdlnbpafiamejdnhcphjbkeiagm,ddkjiahejlhfcafbddmgiahcphecmpfh</string>
+            </array>
+            <key>ExtensionInstallBlocklist</key>
+            <array>
+                <string>*</string>
+            </array>
+            <key>HttpsOnlyMode</key>
+            <string>force_balanced</string>
+            <key>ImportAutofillFormData</key>
+            <false/>
+            <key>ImportBookmarks</key>
+            <false/>
+            <key>ImportHistory</key>
+            <false/>
+            <key>ImportHomepage</key>
+            <false/>
+            <key>ImportSavedPasswords</key>
+            <false/>
+            <key>ImportSearchEngine</key>
+            <false/>
+            <key>PromotionsEnabled</key>
+            <false/>
+            <key>RemoteAccessHostAllowRemoteAccessConnections</key>
+            <false/>
+            <key>RemoteAccessHostAllowRemoteSupportConnections</key>
+            <false/>
+            <key>RelaunchNotification</key>
+            <integer>2</integer>
+            <!-- "You know what would be rad? If we made this policy configurable to the millisecond." -->
+            <key>RelaunchNotificationPeriod</key>
+            <integer>604800000</key>
+            <key>RemoteDebuggingAllowed</key>
+            <false/>
+            <key>SafeBrowsingProtectionLevel</key>
+            <integer>2</integer>
+            <!-- Standard profile bits. -->
+            <key>PayloadDescription</key>
+            <string>Google Chrome Settings</string>
+            <key>PayloadDisplayName</key>
+            <string>Google Chrome App Defaults</string>
+            <key>PayloadEnabled</key>
+            <true/>
+            <key>PayloadIdentifier</key>
+            <string>com.google.Chrome.1FCB424D-008B-4FE6-9AD8-B69EE56E7F94</string>
+            <key>PayloadOrganization</key>
+            <string>Contoso Inc</string>
+            <key>PayloadType</key>
+            <string>com.google.Chrome</string>
+            <key>PayloadUUID</key>
+            <string>1FCB424D-008B-4FE6-9AD8-B69EE56E7F94</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>App Defaults - Chrome</string>
+    <key>PayloadIdentifier</key>
+    <string>org.contoso.chrome.8123E326-94EA-4AAC-A485-876ED24A6808</string>
+    <key>PayloadOrganization</key>
+    <string>Contoso Inc</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadScope</key>
+    <string>System</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>8123E326-94EA-4AAC-A485-876ED24A6808</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
 </dict>
 </plist>
