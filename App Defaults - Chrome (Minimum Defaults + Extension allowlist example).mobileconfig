@@ -19,7 +19,10 @@
             <true/>
             <key>ExtensionInstallAllowlist</key>
             <array>
-                <string>cjpalhdlnbpafiamejdnhcphjbkeiagm,ddkjiahejlhfcafbddmgiahcphecmpfh</string>
+                <!-- uBlock Origin. The GOAT. -->
+                <string>cjpalhdlnbpafiamejdnhcphjbkeiagm</string>
+                <!-- uBlock Origin Lite. I'm sad too but don't worry it's fine. -->
+                <string>ddkjiahejlhfcafbddmgiahcphecmpfh</string>
             </array>
             <key>ExtensionInstallBlocklist</key>
             <array>
