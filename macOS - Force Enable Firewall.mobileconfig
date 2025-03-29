@@ -32,7 +32,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Ensures macOS firewall is enabled.</string>
+	<string>Ensure macOS firewall is enabled.</string>
 	<key>PayloadDisplayName</key>
 	<string>macOS - Force Enable Firewall</string>
 	<key>PayloadEnabled</key>

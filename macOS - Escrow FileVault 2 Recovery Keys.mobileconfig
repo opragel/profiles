@@ -44,7 +44,7 @@
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
-	<string>Escrows recovery keys into company management system. Only supported on macOS 10.13 and up.</string>
+	<string>Escrows recovery keys into company management system. Only supported above macOS 13.</string>
 	<key>PayloadDisplayName</key>
 	<string>Escrow Recovery Keys</string>
 	<key>PayloadEnabled</key>

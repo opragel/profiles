@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
+<!-- Recommend the "Minimum Defaults" Chrome example instead-->
 <dict>
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>AuthNegotiateDelegateWhitelist</key>
-			<string>*.contoso.com</string>
-			<key>AuthServerWhitelist</key>
-			<string>*.contoso.com</string>
-			<key>DefaultBrowserSettingEnabled</key>
-			<false/>
-			<key>HideWebStorePromo</key>
-			<true/>
 			<key>ImportAutofillFormData</key>
 			<false/>
 			<key>ImportBookmarks</key>
@@ -24,8 +17,6 @@
 			<key>ImportSavedPasswords</key>
 			<false/>
 			<key>ImportSearchEngine</key>
-			<false/>
-			<key>MetricsReportingEnabled</key>
 			<false/>
 			<key>RestoreOnStartupURLs</key>
 			<array>

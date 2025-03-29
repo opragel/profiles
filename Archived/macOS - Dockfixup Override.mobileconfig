@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<!-- 
+		This was fun to play with a long time ago but I haven't checked in on it in forever, 
+	    and wouldn't recommend or see any reason to use it these days (or even at the time).
+	-->
 	<key>PayloadContent</key>
 	<array>
 		<dict>
