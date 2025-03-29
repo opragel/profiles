@@ -5,14 +5,14 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>DefaultBrowserSettingEnabled</key>
-			<false/>
-			<key>ExtensionInstallBlacklist</key>
+			<key>ExtensionInstallAllowlist</key>
 			<array>
-				<string>jlhmfgmfgeifomenelglieieghnjghma</string>
+				<string>cjpalhdlnbpafiamejdnhcphjbkeiagm,ddkjiahejlhfcafbddmgiahcphecmpfh </string>
 			</array>
-			<key>HideWebStorePromo</key>
-			<true/>
+			<key>ExtensionInstallBlocklist</key>
+			<array>
+				<string>*</string>
+			</array>
 			<key>ImportAutofillFormData</key>
 			<false/>
 			<key>ImportBookmarks</key>
@@ -24,8 +24,6 @@
 			<key>ImportSavedPasswords</key>
 			<false/>
 			<key>ImportSearchEngine</key>
-			<false/>
-			<key>MetricsReportingEnabled</key>
 			<false/>
 			<key>PayloadDescription</key>
 			<string>Google Chrome Settings</string>
